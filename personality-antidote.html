@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人生解药</title>
+    <meta
+      name="description"
+      content="根据冥想星球·MBTI 人格结果展示对应的人生解药，提供 10 条左右冥想练习与跳转链接。"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">冥想星球·MBTI</p>
+          <h1 id="pageTitle">人格解药</h1>
+        </div>
+        <a class="ghost-link" href="./index.html">返回测评</a>
+      </header>
+
+      <section class="surface prescription-page">
+        <div class="prescription-hero">
+          <p class="section-kicker">人格解药</p>
+          <h2 id="prescriptionTitle">正在配药方</h2>
+          <p class="prescription-name" id="prescriptionName">请稍等，正在读取你的人格结果。</p>
+          <p id="prescriptionStatus">请稍等，正在读取你的测评结果。</p>
+          <blockquote class="result-quote hidden" id="prescriptionIntro"></blockquote>
+          <p class="prescription-meta" id="prescriptionDirection"></p>
+          <p class="safety-note hidden" id="sensitiveNote">
+            这个结果只用于娱乐和练习推荐，不是心理诊断。若你正处在强烈痛苦、失控或危险状态，请优先联系可信任的人或专业支持。
+          </p>
+        </div>
+
+        <div class="prescription-panel">
+          <div>
+            <p class="section-kicker">首服三味</p>
+            <h3>先从这三条开始</h3>
+          </div>
+          <div class="featured-practices" id="featuredPractices"></div>
+        </div>
+
+        <div class="prescription-panel">
+          <div class="prescription-panel-head">
+            <div>
+              <p class="section-kicker">完整药方</p>
+              <h3>十条冥想练习</h3>
+            </div>
+            <span id="practiceCount">0 条</span>
+          </div>
+          <div class="practice-list" id="practiceList"></div>
+        </div>
+
+        <div class="prescription-actions">
+          <a class="ghost-link" href="./index.html">返回测评</a>
+          <a class="primary-link" id="firstPracticeLink" href="./index.html">从第一条开始</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/data/sbti-data.js"></script>
+    <script src="./assets/data/antidote-data.js"></script>
+    <script src="./assets/js/personality-antidote.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>冥想星球·MBTI</title>
+    <meta
+      name="description"
+      content="冥想星球·MBTI 测评。前端本地完成题目计算，展示完整人格长文案，并根据人格结果推荐对应的人格解药。"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>冥想星球·MBTI</h1>
+        </div>
+        <button class="ghost-button hidden" id="resetTopBtn" type="button">重新开始</button>
+      </header>
+
+      <section class="intro surface" id="introScreen">
+        <div class="intro-copy">
+          <p class="section-kicker">冥想星球·MBTI</p>
+          <h2>先测出你的电子魂魄，再给它配一剂人格解药。</h2>
+          <p>
+            共 30 道常规题加 2 道隐藏彩蛋题。页面会在前端本地完成计分，结果页展示完整人格说明，并在结果落点出现对应的人格解药入口。
+          </p>
+          <div class="intro-actions">
+            <button class="primary-button" id="startBtn" type="button">开始测试</button>
+            <span>本测评仅供娱乐和练习推荐参考。</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="test surface hidden" id="testScreen">
+        <div class="test-head">
+          <div>
+            <p class="section-kicker" id="questionMeta">第 1 题</p>
+            <h2 id="questionTitle">题目加载中</h2>
+          </div>
+          <div class="progress-label" id="progressText">0 / 31</div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+        <form id="questionForm" class="options"></form>
+        <div class="test-actions">
+          <button class="ghost-button" id="prevBtn" type="button">上一题</button>
+          <button class="secondary-button" id="nextBtn" type="button">下一题</button>
+          <button class="primary-button hidden" id="submitBtn" type="button">提交并查看结果</button>
+        </div>
+      </section>
+
+      <section class="result surface hidden" id="resultScreen">
+        <div class="result-top">
+          <div class="result-title">
+            <p class="section-kicker" id="resultKicker">你的主类型</p>
+            <h2 id="resultName">CTRL（拿捏者）</h2>
+            <p class="match-badge" id="matchBadge">匹配度 92%</p>
+          </div>
+        </div>
+
+        <div class="result-block">
+          <p class="section-kicker">开场白</p>
+          <blockquote class="result-quote" id="resultIntro">怎么样，被我拿捏了吧？</blockquote>
+          <p class="section-kicker">人格说明</p>
+          <p class="result-description" id="resultDesc"></p>
+          <p class="safety-note hidden" id="safetyNote"></p>
+        </div>
+
+        <div class="antidote-band" id="antidoteBlock">
+          <p class="section-kicker">人格解药</p>
+          <h3 id="antidoteTitle">松开方向盘</h3>
+          <p id="antidoteSubtitle">适合从控制感和责任压力里松一口气。</p>
+          <button class="primary-button" id="antidoteBtn" type="button">查看人格解药</button>
+        </div>
+
+        <div class="result-actions">
+          <button class="ghost-button" id="restartBtn" type="button">重新测试</button>
+          <button class="secondary-button" id="copyBtn" type="button">复制结果</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/data/sbti-data.js"></script>
+    <script src="./assets/data/antidote-data.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

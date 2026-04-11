@@ -74,9 +74,9 @@ function renderPrescription(typeItem, prescriptionItem) {
 
 function renderFeaturedPractice(practice) {
   return `
-    <a class="featured-practice" href="${escapeHtml(practice.url)}" target="_blank" rel="noopener noreferrer">
+    <a class="card practice-card practice-card--featured" href="${escapeHtml(practice.url)}" target="_blank" rel="noopener noreferrer">
       <span class="practice-order">${practice.priority}</span>
-      <span>
+      <span class="practice-copy">
         <strong>${escapeHtml(practice.title)}</strong>
         <em>${escapeHtml(practice.reason)}</em>
       </span>
@@ -86,7 +86,7 @@ function renderFeaturedPractice(practice) {
 
 function renderPractice(practice) {
   return `
-    <article class="practice-item">
+    <article class="card practice-card practice-card--detail">
       <div class="practice-title-row">
         <span class="practice-order">${practice.priority}</span>
         <h4>${escapeHtml(practice.title)}</h4>

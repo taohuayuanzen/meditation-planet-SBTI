@@ -16,50 +16,52 @@
         <div>
           <h1>冥想星球·MBTI</h1>
         </div>
-        <button class="ghost-button hidden" id="resetTopBtn" type="button">重新开始</button>
+        <button class="button-ghost hidden" id="resetTopBtn" type="button">重新开始</button>
       </header>
 
-      <section class="intro surface" id="introScreen">
-        <div class="intro-copy">
-          <p class="section-kicker">冥想星球·MBTI</p>
-          <h2>先测出你的电子魂魄，再给它配一剂人生解药。</h2>
-          <p>
-            共 30 道常规题加 2 道隐藏彩蛋题。
-          </p>
-          <div class="intro-actions">
-            <button class="primary-button" id="startBtn" type="button">开始测试</button>
-            <span>本测评仅供娱乐和练习推荐参考。</span>
+      <section class="intro-screen" id="introScreen">
+        <div class="card intro-card">
+          <div class="intro-copy">
+            <p class="section-kicker">冥想星球·MBTI</p>
+            <h2>测测你的电子魂魄，再给它配一剂人生解药。</h2>
+            <p class="intro-summary">
+              共 30 道常规题，约3分钟。
+            </p>
+            <p class="intro-note">本测评仅供娱乐和参考。</p>
+            <div class="intro-actions">
+              <button class="button-primary" id="startBtn" type="button">开始测试</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="test surface hidden" id="testScreen">
-        <div class="test-progress">
-          <div class="progress-label" id="progressText">0 / 31</div>
-          <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
-        </div>
-        <div class="test-head">
-          <p class="section-kicker" id="questionMeta">第 1 题</p>
-          <h2 id="questionTitle">题目加载中</h2>
-        </div>
-        <form id="questionForm" class="options"></form>
-        <div class="test-actions">
-          <button class="ghost-button" id="prevBtn" type="button">上一题</button>
-          <button class="secondary-button" id="nextBtn" type="button">下一题</button>
-          <button class="primary-button hidden" id="submitBtn" type="button">提交并查看结果</button>
+      <section class="test hidden" id="testScreen">
+        <div class="card test-card">
+          <div class="test-progress">
+            <div class="progress-label progress" id="progressText">0 / 31</div>
+            <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+          </div>
+          <div class="test-head">
+            <p class="section-kicker" id="questionMeta">第 1 题</p>
+            <h2 id="questionTitle">题目加载中</h2>
+          </div>
+          <form id="questionForm" class="options"></form>
+          <div class="test-actions">
+            <button class="button-ghost" id="prevBtn" type="button">上一题</button>
+            <button class="button-secondary" id="nextBtn" type="button">下一题</button>
+            <button class="button-primary hidden" id="submitBtn" type="button">提交并查看结果</button>
+          </div>
         </div>
       </section>
 
-      <section class="result surface hidden" id="resultScreen">
-        <div class="result-top">
-          <div class="result-title">
-            <p class="section-kicker" id="resultKicker">你的主类型</p>
-            <h2 id="resultName">CTRL（拿捏者）</h2>
-            <p class="match-badge" id="matchBadge">匹配度 92%</p>
-          </div>
+      <section class="result hidden" id="resultScreen">
+        <div class="card result-card result-card--highlight">
+          <p class="section-kicker" id="resultKicker">你的主类型</p>
+          <h2 class="result-highlight" id="resultName">CTRL（拿捏者）</h2>
+          <p class="result-match" id="matchBadge">匹配度 92%</p>
         </div>
 
-        <div class="result-block">
+        <div class="card result-card result-card--detail">
           <p class="section-kicker">开场白</p>
           <blockquote class="result-quote" id="resultIntro">怎么样，被我拿捏了吧？</blockquote>
           <p class="section-kicker">人格说明</p>
@@ -67,16 +69,16 @@
           <p class="safety-note hidden" id="safetyNote"></p>
         </div>
 
-        <div class="antidote-band" id="antidoteBlock">
+        <div class="card result-card result-card--antidote" id="antidoteBlock">
           <p class="section-kicker">人生解药</p>
           <h3 id="antidoteTitle">松开方向盘</h3>
           <p id="antidoteSubtitle">适合从控制感和责任压力里松一口气。</p>
-          <button class="primary-button" id="antidoteBtn" type="button">查看人生解药</button>
+          <button class="button-primary" id="antidoteBtn" type="button">查看人生解药</button>
         </div>
 
         <div class="result-actions">
-          <button class="ghost-button" id="restartBtn" type="button">重新测试</button>
-          <button class="secondary-button" id="copyBtn" type="button">复制结果</button>
+          <button class="button-ghost" id="restartBtn" type="button">重新测试</button>
+          <button class="button-secondary" id="copyBtn" type="button">复制结果</button>
         </div>
       </section>
     </main>

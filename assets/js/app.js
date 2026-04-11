@@ -66,7 +66,6 @@ function normalizeType(type) {
 
 function showScreen(name) {
   Object.entries(screens).forEach(([key, screen]) => screen.classList.toggle('hidden', key !== name));
-  topbar.classList.toggle('hidden', name === 'test');
   resetTopBtn.classList.toggle('hidden', name === 'intro');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -117,11 +116,12 @@ function renderQuestion() {
   form.innerHTML = '';
   question.options.forEach((option) => {
     const id = `${question.id}-${option.code}`;
+    const isSelected = state.answers[question.id] === option.code;
     const label = document.createElement('label');
-    label.className = 'option-row';
+    label.className = isSelected ? 'option selected' : 'option';
     label.setAttribute('for', id);
     label.innerHTML = `
-      <input id="${id}" type="radio" name="${question.id}" value="${option.code}" ${state.answers[question.id] === option.code ? 'checked' : ''} />
+      <input id="${id}" type="radio" name="${question.id}" value="${option.code}" ${isSelected ? 'checked' : ''} />
       <span class="option-label"><span class="option-code">${option.code}</span>${escapeHtml(option.label)}</span>
     `;
     form.appendChild(label);
@@ -243,10 +243,14 @@ function getPrescription(code) {
 function renderResult(result) {
   const type = result.finalType;
   const prescription = getPrescription(type.code);
+  const resultName = document.getElementById('resultName');
+  const matchBadge = document.getElementById('matchBadge');
 
   document.getElementById('resultKicker').textContent = result.mode;
-  document.getElementById('resultName').textContent = `${type.code}（${type.displayName}）`;
-  document.getElementById('matchBadge').textContent = result.badge;
+  resultName.className = 'result-highlight';
+  resultName.textContent = `${type.code}（${type.displayName}）`;
+  matchBadge.className = 'result-match';
+  matchBadge.textContent = result.badge;
   document.getElementById('resultIntro').textContent = type.intro;
   document.getElementById('resultDesc').textContent = type.desc;
   document.getElementById('antidoteTitle').textContent = prescription?.prescriptionName || '人格解药';

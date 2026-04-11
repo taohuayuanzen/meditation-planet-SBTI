@@ -25,6 +25,7 @@ const screens = {
   result: document.getElementById('resultScreen')
 };
 
+const topbar = document.getElementById('topbar');
 const resetTopBtn = document.getElementById('resetTopBtn');
 const startBtn = document.getElementById('startBtn');
 const prevBtn = document.getElementById('prevBtn');
@@ -65,6 +66,7 @@ function normalizeType(type) {
 
 function showScreen(name) {
   Object.entries(screens).forEach(([key, screen]) => screen.classList.toggle('hidden', key !== name));
+  topbar.classList.toggle('hidden', name === 'test');
   resetTopBtn.classList.toggle('hidden', name === 'intro');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }

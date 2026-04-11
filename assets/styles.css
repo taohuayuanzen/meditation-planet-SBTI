@@ -183,17 +183,25 @@ button:disabled {
 }
 
 .test-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: flex-start;
+  margin-bottom: 30px;
 }
 
 .test h2 {
-  max-width: 820px;
   font-size: 24px;
   line-height: 1.55;
   white-space: pre-wrap;
+  max-width: 820px;
+}
+
+.test-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  width: min(320px, 34vw);
+  min-width: 220px;
+  margin-left: auto;
+  margin-bottom: 24px;
 }
 
 .progress-label {
@@ -204,7 +212,7 @@ button:disabled {
 
 .progress-track {
   height: 10px;
-  margin: 20px 0 22px;
+  width: 100%;
   overflow: hidden;
   border-radius: 8px;
   background: #e4ece8;
@@ -222,6 +230,7 @@ button:disabled {
 .options {
   display: grid;
   gap: 12px;
+  margin-top: 14px;
 }
 
 .option-row {
@@ -258,9 +267,16 @@ button:disabled {
 .result-actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   gap: 12px;
   margin-top: 22px;
+}
+
+.test-actions {
+  justify-content: center;
+}
+
+.result-actions {
+  justify-content: flex-end;
 }
 
 .result-top {
@@ -566,5 +582,20 @@ button:disabled {
 
   .test h2 {
     font-size: 20px;
+  }
+
+  .test-head {
+    margin-bottom: 26px;
+  }
+
+  .test-progress {
+    align-items: stretch;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 20px;
+  }
+
+  .options {
+    margin-top: 18px;
   }
 }

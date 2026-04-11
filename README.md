@@ -5,12 +5,12 @@
 ## 目录结构
 
 - `index.html`：测评首页、答题页、结果页
-- `personality-antidote.html`：人格解药页
+- `personality-antidote.html`：人生解药页
 - `assets/styles.css`：页面样式
 - `assets/js/app.js`：测评流程、计分、结果渲染
-- `assets/js/personality-antidote.js`：人格解药页渲染
+- `assets/js/personality-antidote.js`：人生解药页渲染
 - `assets/data/sbti-data.js`：从 `docs/document/SBTI/SBTI.md` 生成的正式题库与完整人格长文案数据
-- `assets/data/antidote-data.js`：从人生药方与冥想练习清单生成的人格解药数据
+- `assets/data/antidote-data.js`：从人生药方与冥想练习清单生成的人生解药数据
 
 ## 内容来源
 
@@ -39,5 +39,5 @@ app/web_user/meditation-planet-SBTI/index.html
 
 - 自动切题延迟为 `500ms`
 - 所有计分都在前端本地完成
-- 人格解药页通过 `personality-antidote.html?type=人格code` 渲染对应内容
+- 人生解药页通过 `personality-antidote.html?type=人格code` 渲染对应内容
 - 本项目当前没有 npm、Node、后端服务等运行依赖

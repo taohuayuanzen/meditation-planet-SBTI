@@ -1,6 +1,6 @@
 // Generated from docs/document/SBTI/SBTI.md for the deployable site.
 window.MEDITATION_PLANET_SBTI_QUESTIONS = {
-    "siteTitle": "冥想星球·MBTI",
+    "siteTitle": "冥想星球·SBTI",
     "dimensionMeta": {
         "S1": {
             "model": "自我模型",
@@ -738,52 +738,6 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                     "code": "C",
                     "label": "认同",
                     "value": 3
-                }
-            ]
-        }
-    ],
-    "specialQuestions": [
-        {
-            "id": "drink_gate_q1",
-            "special": true,
-            "text": "健身",
-            "options": [
-                {
-                    "code": "A",
-                    "label": "吃喝拉撒",
-                    "value": 1
-                },
-                {
-                    "code": "B",
-                    "label": "艺术爱好",
-                    "value": 2
-                },
-                {
-                    "code": "C",
-                    "label": "饮酒",
-                    "value": 3
-                },
-                {
-                    "code": "D",
-                    "label": "健身",
-                    "value": 4
-                }
-            ]
-        },
-        {
-            "id": "drink_gate_q2",
-            "special": true,
-            "text": "我习惯将白酒灌在保温杯，当白开水喝，酒精令我信服。",
-            "options": [
-                {
-                    "code": "A",
-                    "label": "小酌怡情，喝不了太多。",
-                    "value": 1
-                },
-                {
-                    "code": "B",
-                    "label": "我习惯将白酒灌在保温杯，当白开水喝，酒精令我信服。",
-                    "value": 2
                 }
             ]
         }

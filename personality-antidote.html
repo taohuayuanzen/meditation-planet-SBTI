@@ -12,49 +12,78 @@
   </head>
   <body>
     <main class="app-shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">冥想星球·MBTI</p>
-          <h1 id="pageTitle">人格解药</h1>
-        </div>
-      </header>
+      <div class="sheet-nav">
+        <a class="button-ghost" href="./index.html">返回测评</a>
+      </div>
 
-      <section class="prescription-page">
-        <div class="card prescription-card prescription-card--overview">
-          <p class="section-kicker">人格解药</p>
-          <h2 id="prescriptionTitle">正在配药方</h2>
-          <p class="prescription-name" id="prescriptionName">请稍等，正在读取你的人格结果。</p>
-          <p class="prescription-status" id="prescriptionStatus">请稍等，正在读取你的测评结果。</p>
-          <blockquote class="result-quote hidden" id="prescriptionIntro"></blockquote>
-          <p class="prescription-meta" id="prescriptionDirection"></p>
+      <section class="surface prescription-sheet">
+        <header class="sheet-head">
+          <div class="clinic-copy">
+            <h1 id="pageTitle">人生解药处方单</h1>
+            <p class="clinic-note" id="clinicSubtitle">根据你当前的人格状态生成的练习处方。</p>
+          </div>
+          <div class="diagnosis-stamp" aria-hidden="true">SBTI处方</div>
+        </header>
+
+        <section class="patient-grid" aria-label="人格档案">
+          <div class="info-row">
+            <span class="info-label">人格类型</span>
+            <strong class="info-value" id="prescriptionTitle">正在读取人格结果。</strong>
+          </div>
+          <div class="info-row">
+            <span class="info-label">开方编号</span>
+            <strong class="info-value" id="prescriptionCode">SBTI</strong>
+          </div>
+          <div class="info-row">
+            <span class="info-label">处方名称</span>
+            <strong class="info-value" id="prescriptionName">正在配药方</strong>
+          </div>
+          <div class="info-row">
+            <span class="info-label">推荐方向</span>
+            <strong class="info-value" id="prescriptionDirection">调理方向读取中</strong>
+          </div>
+        </section>
+
+        <section class="sheet-section">
+          <p class="section-kicker">处方标题</p>
+          <h2 class="prescription-name">本次人格处方</h2>
+          <p class="prescription-summary" id="prescriptionSummary">请稍等，正在读取你的测评结果。</p>
+        </section>
+
+        <section class="sheet-section">
+          <h3 class="sheet-title">症状描述</h3>
+          <p class="sheet-paragraph" id="symptomDescription">请稍等，正在读取你的测评结果。</p>
           <p class="safety-note hidden" id="sensitiveNote">
             这个结果只用于娱乐和练习推荐，不是心理诊断。若你正处在强烈痛苦、失控或危险状态，请优先联系可信任的人或专业支持。
           </p>
-        </div>
+        </section>
 
-        <div class="card prescription-card prescription-card--featured">
-          <div>
-            <p class="section-kicker">首服三味</p>
-            <h3>先从这三条开始</h3>
-          </div>
-          <div class="featured-practices" id="featuredPractices"></div>
-        </div>
+        <section class="sheet-section">
+          <h3 class="sheet-title">解药说明</h3>
+          <p class="sheet-paragraph" id="instructionLead">正在生成处方说明</p>
+          <ul class="instruction-list" id="instructionList"></ul>
+        </section>
 
-        <div class="card prescription-card prescription-card--full">
-          <div class="prescription-panel-head">
+        <section class="sheet-section">
+          <div class="section-head">
             <div>
-              <p class="section-kicker">完整药方</p>
-              <h3>十条冥想练习</h3>
+              <p class="section-kicker">练习处方</p>
+              <h3 class="sheet-title">本次建议练习</h3>
             </div>
-            <span id="practiceCount">0 条</span>
+            <span class="prescription-count" id="practiceCount">0 味</span>
           </div>
-          <div class="practice-list" id="practiceList"></div>
-        </div>
+          <p class="prescription-summary" id="practiceLead">按顺序执行本次处方练习。</p>
+          <div class="rx-list" id="practiceList"></div>
+        </section>
 
-        <div class="prescription-actions">
-          <a class="button-ghost" href="./index.html">返回测评</a>
-          <a class="button-primary" id="firstPracticeLink" href="./index.html">从第一条开始</a>
-        </div>
+        <footer class="sheet-footer">
+          <p class="sheet-paragraph" id="signatureText">先从第一味开始，今天完成一味就够。</p>
+          <p class="prescription-date" id="prescriptionDate">开方日期：读取中</p>
+          <div class="footer-actions">
+            <a class="button-ghost" href="./index.html">返回测评</a>
+            <a class="button-primary" id="firstPracticeLink" href="./index.html">从第一条开始</a>
+          </div>
+        </footer>
       </section>
     </main>
 

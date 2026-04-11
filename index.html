@@ -38,7 +38,7 @@
       <section class="test hidden" id="testScreen">
         <div class="card test-card">
           <div class="test-progress">
-            <div class="progress-label progress" id="progressText">0 / 31</div>
+            <div class="progress-label progress" id="progressText">0 / 30</div>
             <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
           </div>
           <div class="test-head">
@@ -56,9 +56,16 @@
 
       <section class="result hidden" id="resultScreen">
         <div class="card result-card result-card--highlight">
-          <p class="section-kicker" id="resultKicker">你的主类型</p>
-          <h2 class="result-highlight" id="resultName">CTRL（拿捏者）</h2>
-          <p class="result-match" id="matchBadge">匹配度 92%</p>
+          <div class="result-hero">
+            <div class="result-figure" aria-hidden="true">
+              <div class="result-figure-placeholder" id="resultFigureLabel">人格图占位</div>
+            </div>
+            <div class="result-hero-copy">
+              <p class="section-kicker" id="resultKicker">你的主类型</p>
+              <h2 class="result-highlight" id="resultName">CTRL（拿捏者）</h2>
+              <p class="result-match" id="matchBadge">匹配度 92%</p>
+            </div>
+          </div>
         </div>
 
         <div class="card result-card result-card--detail">
@@ -74,6 +81,11 @@
           <h3 id="antidoteTitle">松开方向盘</h3>
           <p id="antidoteSubtitle">适合从控制感和责任压力里松一口气。</p>
           <button class="button-primary" id="antidoteBtn" type="button">查看人生解药</button>
+        </div>
+
+        <div class="card result-card result-card--dimensions">
+          <p class="section-kicker">十五维度</p>
+          <div class="dimension-list" id="dimensionList"></div>
         </div>
 
         <div class="result-actions">

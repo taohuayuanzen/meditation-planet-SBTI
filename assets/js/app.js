@@ -4,14 +4,13 @@ const antidoteData = window.SBTI_ANTIDOTE_DATA?.prescriptions || {};
 const dimensionMeta = sbtiData.dimensionMeta;
 const dimensionOrder = sbtiData.dimensionOrder;
 const questions = sbtiData.questions.map(normalizeQuestion);
-const specialQuestions = sbtiData.specialQuestions.map(normalizeQuestion);
 const regularTypes = sbtiData.regularTypes.map(normalizeType);
 const specialTypes = Object.fromEntries(
   Object.entries(sbtiData.specialTypes).map(([code, type]) => [code, normalizeType(type)])
 );
 
 const state = {
-  questions: [...questions, specialQuestions[0]],
+  questions: [...questions],
   index: 0,
   answers: {},
   result: null
@@ -72,7 +71,7 @@ function showScreen(name) {
 
 function startTest() {
   clearAutoAdvance();
-  state.questions = [...questions, specialQuestions[0]];
+  state.questions = [...questions];
   state.index = 0;
   state.answers = {};
   state.result = null;
@@ -80,26 +79,13 @@ function startTest() {
   renderQuestion();
 }
 
-function getVisibleQuestions() {
-  const visible = [...state.questions];
-  const gateIndex = visible.findIndex((question) => question.id === 'drink_gate_q1');
-  const hasSecondDrinkQuestion = visible.some((question) => question.id === 'drink_gate_q2');
-  if (gateIndex !== -1 && state.answers.drink_gate_q1 === 'C' && !hasSecondDrinkQuestion) {
-    visible.splice(gateIndex + 1, 0, specialQuestions[1]);
-  }
-  return visible;
-}
-
 function renderQuestion() {
-  state.questions = getVisibleQuestions();
   if (state.index >= state.questions.length) state.index = state.questions.length - 1;
 
   const question = state.questions[state.index];
   const total = state.questions.length;
   const answeredCount = state.questions.filter((item) => state.answers[item.id]).length;
-  const questionMeta = question.special
-    ? `隐藏题 · ${state.index + 1} / ${total}`
-    : `${dimensionMeta[question.dim].model} · ${dimensionMeta[question.dim].name}`;
+  const questionMeta = `${dimensionMeta[question.dim].model} · ${dimensionMeta[question.dim].name}`;
 
   document.getElementById('questionMeta').textContent = questionMeta;
   document.getElementById('questionTitle').textContent = question.text;
@@ -130,9 +116,6 @@ function renderQuestion() {
   form.querySelectorAll('input').forEach((input) => {
     input.addEventListener('change', (event) => {
       state.answers[question.id] = event.target.value;
-      if (question.id === 'drink_gate_q1' && event.target.value !== 'C') {
-        delete state.answers.drink_gate_q2;
-      }
       renderQuestion();
       scheduleAutoAdvance(question.id);
     });
@@ -172,8 +155,7 @@ function nextQuestion(options = {}) {
 
 function submitTest() {
   clearAutoAdvance();
-  const visible = getVisibleQuestions();
-  const complete = visible.every((question) => state.answers[question.id]);
+  const complete = state.questions.every((question) => state.answers[question.id]);
   if (!complete) return;
 
   state.result = computeResult();
@@ -213,11 +195,7 @@ function computeResult() {
   let mode = '你的主类型';
   let badge = `匹配度 ${finalType.similarity}%`;
 
-  if (state.answers.drink_gate_q1 === 'C' && state.answers.drink_gate_q2 === 'B') {
-    finalType = { ...specialTypes.DRUNK, similarity: 100, exact: 15 };
-    mode = '隐藏人格已激活';
-    badge = '隐藏结果已激活';
-  } else if (ranked[0].similarity < sbtiData.fallbackThreshold) {
+  if (ranked[0].similarity < sbtiData.fallbackThreshold) {
     finalType = { ...specialTypes.HHHH, similarity: ranked[0].similarity, exact: ranked[0].exact };
     mode = '系统强制兜底';
     badge = `最高匹配 ${ranked[0].similarity}%`;
@@ -243,22 +221,57 @@ function getPrescription(code) {
 function renderResult(result) {
   const type = result.finalType;
   const prescription = getPrescription(type.code);
-  const resultName = document.getElementById('resultName');
-  const matchBadge = document.getElementById('matchBadge');
-
-  document.getElementById('resultKicker').textContent = result.mode;
-  resultName.className = 'result-highlight';
-  resultName.textContent = `${type.code}（${type.displayName}）`;
-  matchBadge.className = 'result-match';
-  matchBadge.textContent = result.badge;
+  renderResultSummary(result);
   document.getElementById('resultIntro').textContent = type.intro;
   document.getElementById('resultDesc').textContent = type.desc;
   document.getElementById('antidoteTitle').textContent = prescription?.prescriptionName || '人格解药';
   document.getElementById('antidoteSubtitle').textContent = prescription?.status || '从一条适合现在状态的练习开始。';
+  renderDimensionList(result.levels);
+  renderSafetyNote(type.sensitive);
+}
 
+function renderResultSummary(result) {
+  const type = result.finalType;
+  document.getElementById('resultKicker').textContent = result.mode;
+  document.getElementById('resultName').textContent = `${type.code}（${type.displayName}）`;
+  document.getElementById('matchBadge').textContent = result.badge;
+  document.getElementById('resultFigureLabel').textContent = `${type.code} 人格图占位`;
+}
+
+function renderDimensionList(levels) {
+  const dimensionList = document.getElementById('dimensionList');
+  const items = dimensionOrder.map((dimensionCode) => buildDimensionItem(dimensionCode, levels[dimensionCode]));
+  dimensionList.replaceChildren(...items);
+}
+
+function buildDimensionItem(dimensionCode, level) {
+  const meta = dimensionMeta[dimensionCode];
+  const item = document.createElement('div');
+  const code = document.createElement('p');
+  const copy = document.createElement('div');
+  const model = document.createElement('p');
+  const name = document.createElement('p');
+  const levelBadge = document.createElement('p');
+
+  item.className = 'dimension-item';
+  code.className = 'dimension-code';
+  copy.className = 'dimension-copy';
+  model.className = 'dimension-model';
+  name.className = 'dimension-name';
+  levelBadge.className = 'dimension-level';
+  code.textContent = dimensionCode;
+  model.textContent = meta.model;
+  name.textContent = meta.name;
+  levelBadge.textContent = `${level || 'L'} 档`;
+  copy.append(model, name);
+  item.append(code, copy, levelBadge);
+  return item;
+}
+
+function renderSafetyNote(isSensitive) {
   const safetyNote = document.getElementById('safetyNote');
-  safetyNote.classList.toggle('hidden', !type.sensitive);
-  safetyNote.textContent = type.sensitive
+  safetyNote.classList.toggle('hidden', !isSensitive);
+  safetyNote.textContent = isSensitive
     ? '提示：这个结果只用于娱乐和练习推荐，不是心理诊断。若你正处在强烈痛苦、失控或危险状态，请优先联系可信任的人或专业支持。'
     : '';
 }

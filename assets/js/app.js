@@ -1,39 +1,37 @@
+/**
+ * 冥想星球 SBTI 测评页脚本
+ *
+ * 负责：
+ * - 展示首页与答题页
+ * - 收集用户答案并计算结果
+ * - 写入结果快照并跳转结果页
+ */
+const RESULT_STORAGE_KEY = 'meditation-planet-sbti-result';
+const RESULT_SNAPSHOT_VERSION = 1;
 const sbtiData = window.MEDITATION_PLANET_SBTI;
-const antidoteData = window.SBTI_ANTIDOTE_DATA?.prescriptions || {};
-
 const dimensionMeta = sbtiData.dimensionMeta;
 const dimensionOrder = sbtiData.dimensionOrder;
 const questions = sbtiData.questions.map(normalizeQuestion);
-const specialQuestions = sbtiData.specialQuestions.map(normalizeQuestion);
 const regularTypes = sbtiData.regularTypes.map(normalizeType);
 const specialTypes = Object.fromEntries(
   Object.entries(sbtiData.specialTypes).map(([code, type]) => [code, normalizeType(type)])
 );
-
 const state = {
-  questions: [...questions, specialQuestions[0]],
+  questions: [...questions],
   index: 0,
-  answers: {},
-  result: null
+  answers: {}
 };
 
 let autoAdvanceTimer = null;
 
 const screens = {
   intro: document.getElementById('introScreen'),
-  test: document.getElementById('testScreen'),
-  result: document.getElementById('resultScreen')
+  test: document.getElementById('testScreen')
 };
-
-const topbar = document.getElementById('topbar');
-const resetTopBtn = document.getElementById('resetTopBtn');
 const startBtn = document.getElementById('startBtn');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const submitBtn = document.getElementById('submitBtn');
-const restartBtn = document.getElementById('restartBtn');
-const copyBtn = document.getElementById('copyBtn');
-const antidoteBtn = document.getElementById('antidoteBtn');
 
 document.title = sbtiData.siteTitle;
 
@@ -41,14 +39,12 @@ startBtn.addEventListener('click', startTest);
 prevBtn.addEventListener('click', previousQuestion);
 nextBtn.addEventListener('click', nextQuestion);
 submitBtn.addEventListener('click', submitTest);
-restartBtn.addEventListener('click', startTest);
-resetTopBtn.addEventListener('click', startTest);
-copyBtn.addEventListener('click', copyResult);
-antidoteBtn.addEventListener('click', () => {
-  const typeCode = state.result?.finalType.code || 'HHHH';
-  window.location.href = `./personality-antidote.html?type=${encodeURIComponent(typeCode)}`;
-});
 
+/**
+ * 标准化题目选项，避免运行时修改源数据。
+ * @param {object} question 原始题目
+ * @returns {object} 标准化后的题目
+ */
 function normalizeQuestion(question) {
   return {
     ...question,
@@ -56,6 +52,11 @@ function normalizeQuestion(question) {
   };
 }
 
+/**
+ * 标准化人格结构，补齐结果展示字段。
+ * @param {object} type 原始人格
+ * @returns {object} 标准化后的人格
+ */
 function normalizeType(type) {
   return {
     ...type,
@@ -64,220 +65,367 @@ function normalizeType(type) {
   };
 }
 
+/**
+ * 切换当前显示页面。
+ * @param {'intro' | 'test'} name 页面标识
+ */
 function showScreen(name) {
-  Object.entries(screens).forEach(([key, screen]) => screen.classList.toggle('hidden', key !== name));
-  resetTopBtn.classList.toggle('hidden', name === 'intro');
+  Object.entries(screens).forEach(([key, screen]) => {
+    screen.classList.toggle('hidden', key !== name);
+  });
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+/**
+ * 重新开始测评并清理旧结果快照。
+ */
 function startTest() {
   clearAutoAdvance();
-  state.questions = [...questions, specialQuestions[0]];
+  clearResultSnapshot();
+  state.questions = [...questions];
   state.index = 0;
   state.answers = {};
-  state.result = null;
   showScreen('test');
   renderQuestion();
 }
 
-function getVisibleQuestions() {
-  const visible = [...state.questions];
-  const gateIndex = visible.findIndex((question) => question.id === 'drink_gate_q1');
-  const hasSecondDrinkQuestion = visible.some((question) => question.id === 'drink_gate_q2');
-  if (gateIndex !== -1 && state.answers.drink_gate_q1 === 'C' && !hasSecondDrinkQuestion) {
-    visible.splice(gateIndex + 1, 0, specialQuestions[1]);
+/**
+ * 渲染当前题目和进度状态。
+ */
+function renderQuestion() {
+  if (state.index >= state.questions.length) {
+    state.index = state.questions.length - 1;
   }
-  return visible;
+
+  const currentQuestion = state.questions[state.index];
+  const answeredCount = getAnsweredCount();
+  const total = state.questions.length;
+  const form = document.getElementById('questionForm');
+
+  updateQuestionHead(currentQuestion, answeredCount, total);
+  updateQuestionActions(currentQuestion.id, answeredCount, total);
+  form.innerHTML = buildQuestionOptions(currentQuestion);
+  bindQuestionOptions(form, currentQuestion.id);
 }
 
-function renderQuestion() {
-  state.questions = getVisibleQuestions();
-  if (state.index >= state.questions.length) state.index = state.questions.length - 1;
-
-  const question = state.questions[state.index];
-  const total = state.questions.length;
-  const answeredCount = state.questions.filter((item) => state.answers[item.id]).length;
-  const questionMeta = question.special
-    ? `隐藏题 · ${state.index + 1} / ${total}`
-    : `${dimensionMeta[question.dim].model} · ${dimensionMeta[question.dim].name}`;
-
+/**
+ * 更新题干与进度显示。
+ * @param {object} question 当前题目
+ * @param {number} answeredCount 已答数量
+ * @param {number} total 题目总数
+ */
+function updateQuestionHead(question, answeredCount, total) {
+  const questionMeta = `${dimensionMeta[question.dim].model} · ${dimensionMeta[question.dim].name}`;
   document.getElementById('questionMeta').textContent = questionMeta;
   document.getElementById('questionTitle').textContent = question.text;
   document.getElementById('progressText').textContent = `${answeredCount} / ${total}`;
   document.getElementById('progressBar').style.width = `${(answeredCount / total) * 100}%`;
+}
 
+/**
+ * 更新题目操作按钮状态。
+ * @param {string} questionId 当前题目ID
+ * @param {number} answeredCount 已答数量
+ * @param {number} total 题目总数
+ */
+function updateQuestionActions(questionId, answeredCount, total) {
   prevBtn.disabled = state.index === 0;
-  nextBtn.disabled = !state.answers[question.id];
+  nextBtn.disabled = !state.answers[questionId];
   nextBtn.classList.toggle('hidden', state.index === total - 1);
   submitBtn.classList.toggle('hidden', state.index !== total - 1);
   submitBtn.disabled = answeredCount !== total;
+}
 
-  const form = document.getElementById('questionForm');
-  form.innerHTML = '';
-  question.options.forEach((option) => {
-    const id = `${question.id}-${option.code}`;
-    const isSelected = state.answers[question.id] === option.code;
-    const label = document.createElement('label');
-    label.className = isSelected ? 'option selected' : 'option';
-    label.setAttribute('for', id);
-    label.innerHTML = `
-      <input id="${id}" type="radio" name="${question.id}" value="${option.code}" ${isSelected ? 'checked' : ''} />
+/**
+ * 生成当前题目的选项列表。
+ * @param {object} question 当前题目
+ * @returns {string} 选项HTML
+ */
+function buildQuestionOptions(question) {
+  return question.options.map((option) => buildQuestionOption(question.id, option)).join('');
+}
+
+/**
+ * 生成单个选项HTML。
+ * @param {string} questionId 题目ID
+ * @param {object} option 题目选项
+ * @returns {string} 选项HTML
+ */
+function buildQuestionOption(questionId, option) {
+  const optionId = `${questionId}-${option.code}`;
+  const isSelected = state.answers[questionId] === option.code;
+  const optionClassName = isSelected ? 'option selected' : 'option';
+  const checkedAttr = isSelected ? 'checked' : '';
+
+  return `
+    <label class="${optionClassName}" for="${optionId}">
+      <input id="${optionId}" type="radio" name="${questionId}" value="${option.code}" ${checkedAttr} />
       <span class="option-label"><span class="option-code">${option.code}</span>${escapeHtml(option.label)}</span>
-    `;
-    form.appendChild(label);
-  });
+    </label>
+  `;
+}
 
+/**
+ * 绑定选项点击事件。
+ * @param {HTMLFormElement} form 选项表单
+ * @param {string} questionId 当前题目ID
+ */
+function bindQuestionOptions(form, questionId) {
   form.querySelectorAll('input').forEach((input) => {
     input.addEventListener('change', (event) => {
-      state.answers[question.id] = event.target.value;
-      if (question.id === 'drink_gate_q1' && event.target.value !== 'C') {
-        delete state.answers.drink_gate_q2;
-      }
+      state.answers[questionId] = event.target.value;
       renderQuestion();
-      scheduleAutoAdvance(question.id);
+      scheduleAutoAdvance(questionId);
     });
   });
 }
 
+/**
+ * 获取已答题数量。
+ * @returns {number} 已答数量
+ */
+function getAnsweredCount() {
+  return state.questions.filter((question) => state.answers[question.id]).length;
+}
+
+/**
+ * 清理自动跳题计时器。
+ */
 function clearAutoAdvance() {
-  if (!autoAdvanceTimer) return;
+  if (!autoAdvanceTimer) {
+    return;
+  }
+
   clearTimeout(autoAdvanceTimer);
   autoAdvanceTimer = null;
 }
 
+/**
+ * 设置自动跳题。
+ * @param {string} questionId 当前题目ID
+ */
 function scheduleAutoAdvance(questionId) {
   clearAutoAdvance();
-  if (state.index >= state.questions.length - 1) return;
+  if (state.index >= state.questions.length - 1) {
+    return;
+  }
 
   autoAdvanceTimer = setTimeout(() => {
     autoAdvanceTimer = null;
     const currentQuestion = state.questions[state.index];
-    if (currentQuestion?.id !== questionId || !state.answers[questionId]) return;
+    if (currentQuestion?.id !== questionId || !state.answers[questionId]) {
+      return;
+    }
     nextQuestion({ fromAuto: true });
   }, 500);
 }
 
+/**
+ * 返回上一题。
+ */
 function previousQuestion() {
   clearAutoAdvance();
   state.index = Math.max(0, state.index - 1);
   renderQuestion();
 }
 
+/**
+ * 进入下一题。
+ * @param {{ fromAuto?: boolean }} [options] 触发来源
+ */
 function nextQuestion(options = {}) {
-  if (!options.fromAuto) clearAutoAdvance();
-  if (!state.answers[state.questions[state.index].id]) return;
+  if (!options.fromAuto) {
+    clearAutoAdvance();
+  }
+  if (!state.answers[state.questions[state.index].id]) {
+    return;
+  }
+
   state.index = Math.min(state.questions.length - 1, state.index + 1);
   renderQuestion();
 }
 
+/**
+ * 提交测评并跳转结果页。
+ */
 function submitTest() {
   clearAutoAdvance();
-  const visible = getVisibleQuestions();
-  const complete = visible.every((question) => state.answers[question.id]);
-  if (!complete) return;
-
-  state.result = computeResult();
-  renderResult(state.result);
-  showScreen('result');
-}
-
-function computeResult() {
-  const rawScores = Object.fromEntries(dimensionOrder.map((dimension) => [dimension, 0]));
-  questions.forEach((question) => {
-    const code = state.answers[question.id];
-    const option = question.options.find((item) => item.code === code);
-    rawScores[question.dim] += option ? option.value : 0;
-  });
-
-  const levels = Object.fromEntries(dimensionOrder.map((dimension) => [dimension, sumToLevel(rawScores[dimension])]));
-  const userVector = dimensionOrder.map((dimension) => levelNum(levels[dimension]));
-  const ranked = regularTypes
-    .map((type) => {
-      const vector = type.pattern.replaceAll('-', '').split('').map(levelNum);
-      let distance = 0;
-      let exact = 0;
-      vector.forEach((value, index) => {
-        const diff = Math.abs(userVector[index] - value);
-        distance += diff;
-        if (diff === 0) exact += 1;
-      });
-      const similarity = Math.max(
-        0,
-        Math.round((1 - distance / sbtiData.dimensionMaxDistance) * 100)
-      );
-      return { ...type, distance, exact, similarity };
-    })
-    .sort((a, b) => a.distance - b.distance || b.exact - a.exact || b.similarity - a.similarity);
-
-  let finalType = ranked[0];
-  let mode = '你的主类型';
-  let badge = `匹配度 ${finalType.similarity}%`;
-
-  if (state.answers.drink_gate_q1 === 'C' && state.answers.drink_gate_q2 === 'B') {
-    finalType = { ...specialTypes.DRUNK, similarity: 100, exact: 15 };
-    mode = '隐藏人格已激活';
-    badge = '隐藏结果已激活';
-  } else if (ranked[0].similarity < sbtiData.fallbackThreshold) {
-    finalType = { ...specialTypes.HHHH, similarity: ranked[0].similarity, exact: ranked[0].exact };
-    mode = '系统强制兜底';
-    badge = `最高匹配 ${ranked[0].similarity}%`;
+  if (!isQuestionnaireComplete()) {
+    return;
   }
 
-  return { rawScores, levels, ranked, finalType, mode, badge };
+  const result = computeResult();
+  saveResultSnapshot(result);
+  window.location.href = './result.html';
 }
 
+/**
+ * 判断题目是否全部完成。
+ * @returns {boolean} 是否全部完成
+ */
+function isQuestionnaireComplete() {
+  return state.questions.every((question) => state.answers[question.id]);
+}
+
+/**
+ * 计算测评结果。
+ * @returns {object} 结果快照源数据
+ */
+function computeResult() {
+  const rawScores = buildRawScores();
+  const levels = buildLevels(rawScores);
+  const rankedTypes = rankTypesByDistance(levels);
+  const bestType = rankedTypes[0];
+
+  if (bestType.similarity < sbtiData.fallbackThreshold) {
+    return buildFallbackResult(bestType, levels);
+  }
+
+  return {
+    finalType: bestType,
+    mode: '你的主类型',
+    badge: `匹配度 ${bestType.similarity}%`,
+    levels
+  };
+}
+
+/**
+ * 统计每个维度的原始分数。
+ * @returns {Record<string, number>} 维度分数
+ */
+function buildRawScores() {
+  const rawScores = Object.fromEntries(dimensionOrder.map((dimension) => [dimension, 0]));
+
+  questions.forEach((question) => {
+    const answerCode = state.answers[question.id];
+    const selectedOption = question.options.find((option) => option.code === answerCode);
+    rawScores[question.dim] += selectedOption ? selectedOption.value : 0;
+  });
+
+  return rawScores;
+}
+
+/**
+ * 将维度分数转换为档位。
+ * @param {Record<string, number>} rawScores 维度分数
+ * @returns {Record<string, 'L' | 'M' | 'H'>} 维度档位
+ */
+function buildLevels(rawScores) {
+  return Object.fromEntries(
+    dimensionOrder.map((dimension) => [dimension, sumToLevel(rawScores[dimension])])
+  );
+}
+
+/**
+ * 对所有人格进行距离排序。
+ * @param {Record<string, 'L' | 'M' | 'H'>} levels 用户档位
+ * @returns {Array<object>} 排序后的人格列表
+ */
+function rankTypesByDistance(levels) {
+  const userVector = dimensionOrder.map((dimension) => levelNum(levels[dimension]));
+
+  return regularTypes
+    .map((type) => buildRankedType(type, userVector))
+    .sort((left, right) => {
+      return left.distance - right.distance || right.exact - left.exact || right.similarity - left.similarity;
+    });
+}
+
+/**
+ * 计算单个人格的匹配结果。
+ * @param {object} type 人格定义
+ * @param {number[]} userVector 用户档位向量
+ * @returns {object} 带匹配信息的人格
+ */
+function buildRankedType(type, userVector) {
+  const typeVector = type.pattern.replaceAll('-', '').split('').map(levelNum);
+  let distance = 0;
+  let exact = 0;
+
+  typeVector.forEach((value, index) => {
+    const diff = Math.abs(userVector[index] - value);
+    distance += diff;
+    if (diff === 0) {
+      exact += 1;
+    }
+  });
+
+  const similarity = Math.max(0, Math.round((1 - distance / sbtiData.dimensionMaxDistance) * 100));
+  return { ...type, distance, exact, similarity };
+}
+
+/**
+ * 构造兜底人格结果。
+ * @param {object} bestType 当前最高匹配人格
+ * @param {Record<string, 'L' | 'M' | 'H'>} levels 用户档位
+ * @returns {object} 兜底结果
+ */
+function buildFallbackResult(bestType, levels) {
+  return {
+    finalType: {
+      ...specialTypes.HHHH,
+      similarity: bestType.similarity,
+      exact: bestType.exact
+    },
+    mode: '系统强制兜底',
+    badge: `最高匹配 ${bestType.similarity}%`,
+    levels
+  };
+}
+
+/**
+ * 保存结果快照，供结果页读取。
+ * @param {object} result 测评结果
+ */
+function saveResultSnapshot(result) {
+  const resultSnapshot = {
+    version: RESULT_SNAPSHOT_VERSION,
+    createdAt: Date.now(),
+    finalType: result.finalType,
+    mode: result.mode,
+    badge: result.badge,
+    levels: result.levels
+  };
+
+  sessionStorage.setItem(RESULT_STORAGE_KEY, JSON.stringify(resultSnapshot));
+}
+
+/**
+ * 清理旧结果快照，避免重复测试串结果。
+ */
+function clearResultSnapshot() {
+  sessionStorage.removeItem(RESULT_STORAGE_KEY);
+}
+
+/**
+ * 将分数映射为档位。
+ * @param {number} score 维度分数
+ * @returns {'L' | 'M' | 'H'} 维度档位
+ */
 function sumToLevel(score) {
-  if (score <= 3) return 'L';
-  if (score === 4) return 'M';
+  if (score <= 3) {
+    return 'L';
+  }
+  if (score === 4) {
+    return 'M';
+  }
   return 'H';
 }
 
+/**
+ * 将档位映射为数值，用于距离计算。
+ * @param {'L' | 'M' | 'H'} level 维度档位
+ * @returns {number} 档位数值
+ */
 function levelNum(level) {
   return { L: 1, M: 2, H: 3 }[level];
 }
 
-function getPrescription(code) {
-  return antidoteData[code] || antidoteData.HHHH || null;
-}
-
-function renderResult(result) {
-  const type = result.finalType;
-  const prescription = getPrescription(type.code);
-  const resultName = document.getElementById('resultName');
-  const matchBadge = document.getElementById('matchBadge');
-
-  document.getElementById('resultKicker').textContent = result.mode;
-  resultName.className = 'result-highlight';
-  resultName.textContent = `${type.code}（${type.displayName}）`;
-  matchBadge.className = 'result-match';
-  matchBadge.textContent = result.badge;
-  document.getElementById('resultIntro').textContent = type.intro;
-  document.getElementById('resultDesc').textContent = type.desc;
-  document.getElementById('antidoteTitle').textContent = prescription?.prescriptionName || '人格解药';
-  document.getElementById('antidoteSubtitle').textContent = prescription?.status || '从一条适合现在状态的练习开始。';
-
-  const safetyNote = document.getElementById('safetyNote');
-  safetyNote.classList.toggle('hidden', !type.sensitive);
-  safetyNote.textContent = type.sensitive
-    ? '提示：这个结果只用于娱乐和练习推荐，不是心理诊断。若你正处在强烈痛苦、失控或危险状态，请优先联系可信任的人或专业支持。'
-    : '';
-}
-
-async function copyResult() {
-  if (!state.result) return;
-  const type = state.result.finalType;
-  const text = `我的 冥想星球·MBTI 人格解药结果：${type.code}（${type.displayName}）｜${type.intro}`;
-  try {
-    await navigator.clipboard.writeText(text);
-    copyBtn.textContent = '已复制';
-    setTimeout(() => {
-      copyBtn.textContent = '复制结果';
-    }, 1400);
-  } catch {
-    alert(text);
-  }
-}
-
+/**
+ * 转义文本，防止选项内容插入HTML。
+ * @param {string} text 原始文本
+ * @returns {string} 转义后的文本
+ */
 function escapeHtml(text) {
   return String(text)
     .replaceAll('&', '&amp;')

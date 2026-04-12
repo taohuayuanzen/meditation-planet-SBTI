@@ -1,6 +1,6 @@
 // Generated from docs/document/SBTI/SBTI.md for the deployable site.
 window.MEDITATION_PLANET_SBTI_QUESTIONS = {
-    "siteTitle": "冥想星球·MBTI",
+    "siteTitle": "冥想星球·SBTI",
     "dimensionMeta": {
         "S1": {
             "model": "自我模型",
@@ -84,16 +84,16 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q1",
             "dim": "S1",
-            "text": "我不仅是草根，我还是joker,我还是咸鱼，这辈子没谈过一场恋爱，胆怯又自卑，我的青春就是一场又一场的意淫……求求哥们给我们这种小丑一点活路吧，我真的不想在白天把枕巾哭湿一大片",
+            "text": "有时候会觉得自己不太起眼，好像在人群里总是那个容易被忽略的人。恋爱这件事也一直没有发生，偶尔会有点胆怯、也会怀疑自己。回头看过去，好像有不少想象过的生活，却很少真正去尝试。",
             "options": [
                 {
                     "code": "A",
-                    "label": "我哭了。。",
+                    "label": "有点扎心。。",
                     "value": 1
                 },
                 {
                     "code": "B",
-                    "label": "这是什么。。",
+                    "label": "说不上来",
                     "value": 2
                 },
                 {
@@ -194,7 +194,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q6",
             "dim": "S3",
-            "text": "外人的评价对我来说无所吊谓。",
+            "text": "外人的评价对我来说不重要。",
             "options": [
                 {
                     "code": "A",
@@ -216,11 +216,11 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q7",
             "dim": "E1",
-            "text": "对象超过5小时没回消息，说自己窜稀了，你会怎么想？",
+            "text": "对方超过5小时没回消息，说自己身体不太舒服。你会怎么想？",
             "options": [
                 {
                     "code": "A",
-                    "label": "拉稀不可能5小时，也许ta隐瞒了我。",
+                    "label": "这么久有点不合理，也许ta隐瞒了我。",
                     "value": 1
                 },
                 {
@@ -260,7 +260,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q9",
             "dim": "E2",
-            "text": "我对天发誓，我对待每一份感情都是认真的！",
+            "text": "说实话，我对待每一段感情，都是认真投入的。",
             "options": [
                 {
                     "code": "A",
@@ -274,7 +274,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                 },
                 {
                     "code": "C",
-                    "label": "是的！（问心无愧骄傲脸）",
+                    "label": "是的，一直如此！",
                     "value": 3
                 }
             ]
@@ -282,11 +282,11 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q10",
             "dim": "E2",
-            "text": "你的恋爱对象是一个尊老爱幼，温柔敦厚，洁身自好……花容月貌的人，此时你会？",
+            "text": "如果你的恋爱对象各方面都很优秀、性格也很好，这种情况下你会？",
             "options": [
                 {
                     "code": "A",
-                    "label": "就算ta再优秀我也不会陷入太深。",
+                    "label": "就算ta很优秀，我也不会投入太深。",
                     "value": 1
                 },
                 {
@@ -296,7 +296,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                 },
                 {
                     "code": "C",
-                    "label": "会非常珍惜ta，也许会变成恋爱脑。",
+                    "label": "会非常珍惜ta，也许会投入很多。",
                     "value": 3
                 }
             ]
@@ -304,16 +304,16 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q11",
             "dim": "E3",
-            "text": "恋爱后，对象非常黏人，你作何感想？",
+            "text": "恋爱后，如果对方很依赖你、经常想待在一起，你会有什么感受？",
             "options": [
                 {
                     "code": "A",
-                    "label": "那很爽了",
+                    "label": "挺喜欢这种感觉",
                     "value": 1
                 },
                 {
                     "code": "B",
-                    "label": "都行无所谓",
+                    "label": "有时喜欢，有时也需要空间",
                     "value": 2
                 },
                 {
@@ -352,7 +352,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
             "options": [
                 {
                     "code": "A",
-                    "label": "其实邪恶的人心比世界上的痔疮更多。",
+                    "label": "不一定，人性比想象中复杂。",
                     "value": 1
                 },
                 {
@@ -370,11 +370,11 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q14",
             "dim": "A1",
-            "text": "你走在街上，一位萌萌的小女孩递给你一根棒棒糖，此时你作何感想？",
+            "text": "你走在街上，一个陌生小朋友递给你一根棒棒糖，这时你会怎么想？",
             "options": [
                 {
                     "code": "A",
-                    "label": "呜呜她真好真可爱！居然给我棒棒糖！",
+                    "label": "会觉得很温暖，对方真的很可爱",
                     "value": 3
                 },
                 {
@@ -384,7 +384,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                 },
                 {
                     "code": "C",
-                    "label": "这也许是一种新型诈骗？还是走开为好。",
+                    "label": "也许是一种新型诈骗？还是走开为好。",
                     "value": 1
                 }
             ]
@@ -392,7 +392,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q15",
             "dim": "A2",
-            "text": "快考试了，学校规定必须上晚自习，但今晚你约了男/女神一起玩《绝地求生》，你怎么办？",
+            "text": "临近重要考试或任务，按规定需要继续学习或准备，但你刚好约了一个很想见的人，你会怎么做？",
             "options": [
                 {
                     "code": "A",
@@ -406,7 +406,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                 },
                 {
                     "code": "C",
-                    "label": "都快考试了还去啥。",
+                    "label": "优先完成当前安排，改天见面",
                     "value": 3
                 }
             ]
@@ -458,7 +458,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q18",
             "dim": "A3",
-            "text": "突然某一天，我意识到人生哪有什么他妈的狗屁意义，人不过是和动物一样被各种欲望支配着……",
+            "text": "突然某一天，我意识到人生哪有什么意义，人不过是和动物一样被各种欲望支配着……",
             "options": [
                 {
                     "code": "A",
@@ -502,21 +502,21 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q20",
             "dim": "Ac1",
-            "text": "你因便秘坐在马桶上（已长达30分钟），拉不出很难受。此时你更像",
+            "text": "当你遇到一个卡住很久、迟迟没有进展的问题时，你更像哪种状态？",
             "options": [
                 {
                     "code": "A",
-                    "label": "再坐三十分钟看看，说不定就有了。",
+                    "label": "再等等，说不定过一会儿就顺了",
                     "value": 1
                 },
                 {
                     "code": "B",
-                    "label": "用力拍打自己的屁股并说：\"死屁股，快拉啊！\"",
+                    "label": "有点着急，会忍不住吐槽或催促自己",
                     "value": 2
                 },
                 {
                     "code": "C",
-                    "label": "使用开塞露，快点拉出来才好。",
+                    "label": "主动找办法解决，让事情尽快推进",
                     "value": 3
                 }
             ]
@@ -612,11 +612,11 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q25",
             "dim": "So1",
-            "text": "你因玩《第五人格》而结识许多网友，并被邀请线下见面，你的想法是？",
+            "text": "你在网上认识了一些人，后来被邀请线下见面，你的想法是？",
             "options": [
                 {
                     "code": "A",
-                    "label": "网上口嗨下就算了，真见面还是有点忐忑。",
+                    "label": "线上聊聊还行，真见面还是有点忐忑。",
                     "value": 1
                 },
                 {
@@ -656,7 +656,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q27",
             "dim": "So2",
-            "text": "我和人相处主打一个电子围栏，靠太近会自动报警。",
+            "text": "我和人相处时会有一种“边界感”，别人靠太近会让我有点不自在。",
             "options": [
                 {
                     "code": "A",
@@ -678,7 +678,7 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
         {
             "id": "q28",
             "dim": "So2",
-            "text": "我渴望和我信任的人关系密切，熟得像失散多年的亲戚。",
+            "text": "我渴望和我信任的人关系密切，彼此之间没有距离感。",
             "options": [
                 {
                     "code": "A",
@@ -709,12 +709,12 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                 },
                 {
                     "code": "B",
-                    "label": "可能碍于情面或者关系。",
+                    "label": "可能碍于场面或者关系。",
                     "value": 2
                 },
                 {
                     "code": "C",
-                    "label": "不想让别人知道自己是个阴暗的人。",
+                    "label": "不太想表达自己的真实想法。",
                     "value": 3
                 }
             ]
@@ -738,52 +738,6 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
                     "code": "C",
                     "label": "认同",
                     "value": 3
-                }
-            ]
-        }
-    ],
-    "specialQuestions": [
-        {
-            "id": "drink_gate_q1",
-            "special": true,
-            "text": "健身",
-            "options": [
-                {
-                    "code": "A",
-                    "label": "吃喝拉撒",
-                    "value": 1
-                },
-                {
-                    "code": "B",
-                    "label": "艺术爱好",
-                    "value": 2
-                },
-                {
-                    "code": "C",
-                    "label": "饮酒",
-                    "value": 3
-                },
-                {
-                    "code": "D",
-                    "label": "健身",
-                    "value": 4
-                }
-            ]
-        },
-        {
-            "id": "drink_gate_q2",
-            "special": true,
-            "text": "我习惯将白酒灌在保温杯，当白开水喝，酒精令我信服。",
-            "options": [
-                {
-                    "code": "A",
-                    "label": "小酌怡情，喝不了太多。",
-                    "value": 1
-                },
-                {
-                    "code": "B",
-                    "label": "我习惯将白酒灌在保温杯，当白开水喝，酒精令我信服。",
-                    "value": 2
                 }
             ]
         }

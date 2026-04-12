@@ -1,4 +1,3 @@
-// Generated from SBTI markdown source files for the deployable site. Do not edit by hand.
 window.SBTI_ANTIDOTE_DATA = {
     "generatedFrom": [
         "docs/document/SBTI/life-antidote-prescriptions.md",
@@ -21,7 +20,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:14",
                     "seconds": 434,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -31,7 +31,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:06",
                     "seconds": 966,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -41,7 +42,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:20",
                     "seconds": 500,
                     "tags": "放松,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=36"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=36",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 4,
@@ -51,7 +53,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:27",
                     "seconds": 627,
                     "tags": "放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=176"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=176",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -61,7 +64,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:42",
                     "seconds": 1122,
                     "tags": "场景,成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -71,7 +75,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:06",
                     "seconds": 426,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=48"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=48",
+                    "sceneLabel": "???"
                 },
                 {
                     "priority": 7,
@@ -81,7 +86,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:46",
                     "seconds": 346,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=204"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=204",
+                    "sceneLabel": "???"
                 },
                 {
                     "priority": 8,
@@ -91,7 +97,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:00",
                     "seconds": 600,
                     "tags": "放松,场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=515"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=515",
+                    "sceneLabel": "???"
                 }
             ]
         },
@@ -111,7 +118,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:59",
                     "seconds": 359,
                     "tags": "自我修行",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=60"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=60",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -121,7 +129,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:40",
                     "seconds": 700,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=80"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=80",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -131,7 +140,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -141,7 +151,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:03",
                     "seconds": 1203,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -151,7 +162,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:59",
                     "seconds": 419,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=174"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=174",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -161,7 +173,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -171,7 +184,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:30",
                     "seconds": 630,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -181,7 +195,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:39",
                     "seconds": 699,
                     "tags": "自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=67"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=67",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -201,7 +216,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:04",
                     "seconds": 844,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -211,7 +227,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:48",
                     "seconds": 528,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=14"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=14",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -221,7 +238,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -231,7 +249,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -241,7 +260,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:07",
                     "seconds": 967,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=202"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=202",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -251,7 +271,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:39",
                     "seconds": 699,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=95"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=95",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -261,7 +282,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:04",
                     "seconds": 784,
                     "tags": "疗愈,成长,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=141"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=141",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -271,7 +293,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:35",
                     "seconds": 815,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=42"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=42",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -291,7 +314,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:20",
                     "seconds": 500,
                     "tags": "放松,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=36"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=36",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 2,
@@ -301,7 +325,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:33",
                     "seconds": 753,
                     "tags": "场景,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=77"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=77",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -311,7 +336,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:40",
                     "seconds": 940,
                     "tags": "场景,健康,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=451"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=451",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 4,
@@ -321,7 +347,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:27",
                     "seconds": 627,
                     "tags": "放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=176"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=176",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -331,7 +358,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:53",
                     "seconds": 413,
                     "tags": "场景,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=92"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=92",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 6,
@@ -341,7 +369,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "30:01",
                     "seconds": 1801,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=102"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=102",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -351,7 +380,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:06",
                     "seconds": 966,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -361,7 +391,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:42",
                     "seconds": 1122,
                     "tags": "场景,成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -381,7 +412,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "19:50",
                     "seconds": 1190,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=186"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=186",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -391,7 +423,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:49",
                     "seconds": 829,
                     "tags": "睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=171"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=171",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -401,7 +434,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:53",
                     "seconds": 353,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=473"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=473",
+                    "sceneLabel": "???"
                 },
                 {
                     "priority": 4,
@@ -411,7 +445,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -421,7 +456,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:40",
                     "seconds": 700,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=80"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=80",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -431,7 +467,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:22",
                     "seconds": 382,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -441,7 +478,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:34",
                     "seconds": 994,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -451,7 +489,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:18",
                     "seconds": 918,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -471,7 +510,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:50",
                     "seconds": 710,
                     "tags": "疗愈,放松,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=64"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=64",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -481,7 +521,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:07",
                     "seconds": 787,
                     "tags": "疗愈,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=4"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=4",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -491,7 +532,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:50",
                     "seconds": 530,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=32"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=32",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -501,7 +543,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:29",
                     "seconds": 509,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -511,7 +554,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:14",
                     "seconds": 434,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -521,7 +565,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:25",
                     "seconds": 385,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=212"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=212",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -531,7 +576,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "4:48",
                     "seconds": 288,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=298"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=298",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -541,7 +587,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:09",
                     "seconds": 309,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -561,7 +608,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:50",
                     "seconds": 830,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=436"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=436",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -571,7 +619,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:17",
                     "seconds": 617,
                     "tags": "场景,睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=5"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=5",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -581,7 +630,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:40",
                     "seconds": 520,
                     "tags": "场景,放松,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=78"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=78",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -591,7 +641,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:10",
                     "seconds": 730,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=83"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=83",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -601,7 +652,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:32",
                     "seconds": 872,
                     "tags": "放松,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -611,7 +663,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:20",
                     "seconds": 620,
                     "tags": "场景,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=94"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=94",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -621,7 +674,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:46",
                     "seconds": 346,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=204"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=204",
+                    "sceneLabel": "???"
                 },
                 {
                     "priority": 8,
@@ -631,7 +685,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:30",
                     "seconds": 510,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=93"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=93",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -651,7 +706,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:09",
                     "seconds": 369,
                     "tags": "自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=16"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=16",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -661,7 +717,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:55",
                     "seconds": 715,
                     "tags": "健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=282"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=282",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -671,7 +728,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:49",
                     "seconds": 889,
                     "tags": "场景,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=71"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=71",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -681,7 +739,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:07",
                     "seconds": 967,
                     "tags": "健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=173"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=173",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -691,7 +750,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:32",
                     "seconds": 512,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=108"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=108",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -701,7 +761,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:37",
                     "seconds": 997,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=185"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=185",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -711,7 +772,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:29",
                     "seconds": 809,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=434"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=434",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -721,7 +783,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:06",
                     "seconds": 966,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -741,7 +804,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:39",
                     "seconds": 699,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=132"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=132",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -751,7 +815,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:59",
                     "seconds": 659,
                     "tags": "睡眠,疗愈,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -761,7 +826,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:03",
                     "seconds": 1203,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -771,7 +837,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -781,7 +848,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:07",
                     "seconds": 607,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -791,7 +859,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:22",
                     "seconds": 622,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -801,7 +870,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:17",
                     "seconds": 977,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=178"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=178",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -811,7 +881,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "38:59",
                     "seconds": 2339,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=196"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=196",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -831,7 +902,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:34",
                     "seconds": 994,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -841,7 +913,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:18",
                     "seconds": 918,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -851,7 +924,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:30",
                     "seconds": 450,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=350"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=350",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -861,7 +935,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:51",
                     "seconds": 711,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=85"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=85",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -871,7 +946,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:01",
                     "seconds": 421,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=304"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=304",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -881,7 +957,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:03",
                     "seconds": 1203,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -891,7 +968,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "22:57",
                     "seconds": 1377,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=187"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=187",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -901,7 +979,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:58",
                     "seconds": 358,
                     "tags": "想象,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=224"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=224",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -921,7 +1000,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:50",
                     "seconds": 650,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=164"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=164",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -931,7 +1011,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:51",
                     "seconds": 1131,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=205"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=205",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -941,7 +1022,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:59",
                     "seconds": 659,
                     "tags": "睡眠,疗愈,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -951,7 +1033,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -961,7 +1044,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:14",
                     "seconds": 674,
                     "tags": "基础入门,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=91"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=91",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -971,7 +1055,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:20",
                     "seconds": 860,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=403"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=403",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -981,7 +1066,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:01",
                     "seconds": 661,
                     "tags": "基础入门,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=100"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=100",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -991,7 +1077,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:30",
                     "seconds": 630,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1011,7 +1098,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:10",
                     "seconds": 730,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=83"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=83",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1021,7 +1109,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:13",
                     "seconds": 733,
                     "tags": "睡眠,场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=220"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=220",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1031,7 +1120,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:40",
                     "seconds": 520,
                     "tags": "场景,放松,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=78"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=78",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1041,7 +1131,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:24",
                     "seconds": 504,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=175"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=175",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1051,7 +1142,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:17",
                     "seconds": 857,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=182"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=182",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1061,7 +1153,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "24:58",
                     "seconds": 1498,
                     "tags": "成长,场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=357"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=357",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1071,7 +1164,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:39",
                     "seconds": 999,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=354"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=354",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1081,7 +1175,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:30",
                     "seconds": 510,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=93"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=93",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1101,7 +1196,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:59",
                     "seconds": 419,
                     "tags": "场景,睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=106"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=106",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1111,7 +1207,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:25",
                     "seconds": 745,
                     "tags": "场景,睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=40"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=40",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1121,7 +1218,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:53",
                     "seconds": 413,
                     "tags": "场景,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=92"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=92",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 4,
@@ -1131,7 +1229,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:28",
                     "seconds": 388,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=44"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=44",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1141,7 +1240,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:59",
                     "seconds": 539,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=337"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=337",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1151,7 +1251,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:40",
                     "seconds": 940,
                     "tags": "场景,健康,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=451"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=451",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 7,
@@ -1161,7 +1262,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:01",
                     "seconds": 421,
                     "tags": "场景,健康",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=218"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=218",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 8,
@@ -1171,7 +1273,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "9:40",
                     "seconds": 580,
                     "tags": "放松,健康",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=469"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=469",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1191,7 +1294,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1201,7 +1305,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1211,7 +1316,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:22",
                     "seconds": 622,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1221,7 +1327,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:07",
                     "seconds": 607,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1231,7 +1338,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:08",
                     "seconds": 728,
                     "tags": "情绪疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=21"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=21",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1241,7 +1349,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "17:28",
                     "seconds": 1048,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=301"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=301",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1251,7 +1360,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:22",
                     "seconds": 382,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1261,7 +1371,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:59",
                     "seconds": 659,
                     "tags": "睡眠,疗愈,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1281,7 +1392,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:09",
                     "seconds": 309,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1291,7 +1403,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "3:59",
                     "seconds": 239,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=284"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=284",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1301,7 +1414,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:14",
                     "seconds": 434,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1311,7 +1425,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:25",
                     "seconds": 385,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=212"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=212",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1321,7 +1436,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:29",
                     "seconds": 509,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1331,7 +1447,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:42",
                     "seconds": 1002,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=312"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=312",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1341,7 +1458,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:19",
                     "seconds": 739,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1351,7 +1469,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:30",
                     "seconds": 630,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=278"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=278",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1371,7 +1490,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "9:01",
                     "seconds": 541,
                     "tags": "基础",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=512"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=512",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1381,7 +1501,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:15",
                     "seconds": 615,
                     "tags": "正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=394"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=394",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1391,7 +1512,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:59",
                     "seconds": 419,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=35"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=35",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1401,7 +1523,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:07",
                     "seconds": 907,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=38"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=38",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1411,7 +1534,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:00",
                     "seconds": 600,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=3"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=3",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1421,7 +1545,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:42",
                     "seconds": 1122,
                     "tags": "场景,成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=217",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1431,7 +1556,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:20",
                     "seconds": 680,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=281"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=281",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1441,7 +1567,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:49",
                     "seconds": 469,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=225"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=225",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1461,7 +1588,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:19",
                     "seconds": 739,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1471,7 +1599,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "27:03",
                     "seconds": 1623,
                     "tags": "正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=402"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=402",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1481,7 +1610,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:30",
                     "seconds": 930,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=465"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=465",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1491,7 +1621,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:50",
                     "seconds": 1250,
                     "tags": "放松,健康",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=133"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=133",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1501,7 +1632,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:50",
                     "seconds": 830,
                     "tags": "放松,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=417"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=417",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 6,
@@ -1511,7 +1643,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:42",
                     "seconds": 1002,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=312"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=312",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1521,7 +1654,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:41",
                     "seconds": 701,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=439"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=439",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1531,7 +1665,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:09",
                     "seconds": 489,
                     "tags": "正念冥想,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=386"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=386",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1551,7 +1686,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:58",
                     "seconds": 658,
                     "tags": "睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=39"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=39",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1561,7 +1697,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "17:58",
                     "seconds": 1078,
                     "tags": "睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=61"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=61",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1571,7 +1708,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:11",
                     "seconds": 1091,
                     "tags": "睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=70"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=70",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1581,7 +1719,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "17:28",
                     "seconds": 1048,
                     "tags": "睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=107"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=107",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1591,7 +1730,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "21:30",
                     "seconds": 1290,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=210"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=210",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1601,7 +1741,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:11",
                     "seconds": 971,
                     "tags": "睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=216"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=216",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1611,7 +1752,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:49",
                     "seconds": 829,
                     "tags": "睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=171"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=171",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1621,7 +1763,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:03",
                     "seconds": 903,
                     "tags": "场景,放松,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=308"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=308",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1641,7 +1784,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "18:18",
                     "seconds": 1098,
                     "tags": "自我修行,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=12"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=12",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1651,7 +1795,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:35",
                     "seconds": 815,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=42"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=42",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1661,7 +1806,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:40",
                     "seconds": 940,
                     "tags": "疗愈,成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=529"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=529",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1671,7 +1817,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "19:47",
                     "seconds": 1187,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=170"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=170",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1681,7 +1828,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "22:57",
                     "seconds": 1377,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=187"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=187",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1691,7 +1839,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:59",
                     "seconds": 419,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=174"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=174",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1701,7 +1850,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:03",
                     "seconds": 1203,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1711,7 +1861,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:01",
                     "seconds": 781,
                     "tags": "正念冥想,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=101"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=101",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1731,7 +1882,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:34",
                     "seconds": 994,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1741,7 +1893,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:18",
                     "seconds": 918,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=181",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1751,7 +1904,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:30",
                     "seconds": 630,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1761,7 +1915,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:19",
                     "seconds": 919,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=355"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=355",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1771,7 +1926,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:14",
                     "seconds": 674,
                     "tags": "基础入门,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=91"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=91",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1781,7 +1937,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:09",
                     "seconds": 669,
                     "tags": "场景练习,自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=65"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=65",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1791,7 +1948,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:28",
                     "seconds": 748,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=390"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=390",
+                    "sceneLabel": "????"
                 },
                 {
                     "priority": 8,
@@ -1801,7 +1959,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:29",
                     "seconds": 869,
                     "tags": "场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=519"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=519",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1821,7 +1980,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1831,7 +1991,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1841,7 +2002,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:07",
                     "seconds": 967,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=202"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=202",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1851,7 +2013,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:39",
                     "seconds": 699,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=95"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=95",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1861,7 +2024,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:04",
                     "seconds": 844,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1871,7 +2035,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:59",
                     "seconds": 479,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=68"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=68",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1881,7 +2046,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:00",
                     "seconds": 840,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=384"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=384",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1891,7 +2057,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:48",
                     "seconds": 948,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=18"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=18",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -1911,7 +2078,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:07",
                     "seconds": 607,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=58",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -1921,7 +2089,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:22",
                     "seconds": 622,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=63",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -1931,7 +2100,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:59",
                     "seconds": 659,
                     "tags": "睡眠,疗愈,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=195",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -1941,7 +2111,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:34",
                     "seconds": 994,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=76",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -1951,7 +2122,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:30",
                     "seconds": 870,
                     "tags": "场景",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=392"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=392",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -1961,7 +2133,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:50",
                     "seconds": 650,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=164"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=164",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -1971,7 +2144,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:30",
                     "seconds": 630,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=81",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -1981,7 +2155,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:58",
                     "seconds": 358,
                     "tags": "想象,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=224"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=224",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -2001,7 +2176,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:09",
                     "seconds": 309,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=299",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -2011,7 +2187,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:19",
                     "seconds": 739,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=31",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -2021,7 +2198,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:20",
                     "seconds": 620,
                     "tags": "场景,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=94"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=94",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -2031,7 +2209,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:50",
                     "seconds": 830,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=436"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=436",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -2041,7 +2220,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:09",
                     "seconds": 369,
                     "tags": "自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=16"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=16",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -2051,7 +2231,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:06",
                     "seconds": 966,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=2",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -2061,7 +2242,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:29",
                     "seconds": 509,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=69",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -2071,7 +2253,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:32",
                     "seconds": 872,
                     "tags": "放松,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -2091,7 +2274,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "13:01",
                     "seconds": 781,
                     "tags": "正念冥想,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=101"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=101",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -2101,7 +2285,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:59",
                     "seconds": 419,
                     "tags": "健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=283"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=283",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -2111,7 +2296,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "5:39",
                     "seconds": 339,
                     "tags": "基础,场景,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=280"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=280",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -2121,7 +2307,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:57",
                     "seconds": 537,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=7"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=7",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -2131,7 +2318,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:32",
                     "seconds": 872,
                     "tags": "放松,疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=423",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -2141,7 +2329,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "19:47",
                     "seconds": 1187,
                     "tags": "疗愈",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=170"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=170",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -2151,7 +2340,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:43",
                     "seconds": 523,
                     "tags": "自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=15"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=15",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -2161,7 +2351,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:32",
                     "seconds": 692,
                     "tags": "基础,想象,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=273"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=273",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -2181,7 +2372,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "11:12",
                     "seconds": 672,
                     "tags": "成长,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=11",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -2191,7 +2383,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "16:20",
                     "seconds": 980,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=86",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -2201,7 +2394,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "20:03",
                     "seconds": 1203,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=188",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -2211,7 +2405,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:30",
                     "seconds": 390,
                     "tags": "疗愈,非正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=142"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=142",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -2221,7 +2416,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:09",
                     "seconds": 849,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=352"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=352",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -2231,7 +2427,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:22",
                     "seconds": 382,
                     "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=313",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -2241,7 +2438,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "15:48",
                     "seconds": 948,
                     "tags": "未分类",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=18"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=18",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -2251,7 +2449,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "14:04",
                     "seconds": 844,
                     "tags": "成长",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=45",
+                    "sceneLabel": "??"
                 }
             ]
         },
@@ -2271,7 +2470,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "9:29",
                     "seconds": 569,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=271"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=271",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 2,
@@ -2281,7 +2481,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "3:59",
                     "seconds": 239,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=284"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=284",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 3,
@@ -2291,7 +2492,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "7:14",
                     "seconds": 434,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 4,
@@ -2301,7 +2503,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "8:32",
                     "seconds": 512,
                     "tags": "基础,健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=108"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=108",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 5,
@@ -2311,7 +2514,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:00",
                     "seconds": 600,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=3"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=3",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 6,
@@ -2321,7 +2525,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "6:50",
                     "seconds": 410,
                     "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=13"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=13",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 7,
@@ -2331,7 +2536,8 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "12:07",
                     "seconds": 727,
                     "tags": "场景,睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=327"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=327",
+                    "sceneLabel": "??"
                 },
                 {
                     "priority": 8,
@@ -2341,100 +2547,10 @@ window.SBTI_ANTIDOTE_DATA = {
                     "duration": "10:17",
                     "seconds": 617,
                     "tags": "场景,睡眠",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=5"
-                }
-            ]
-        },
-        "DRUNK": {
-            "code": "DRUNK",
-            "displayName": "醉意者",
-            "prescriptionName": "清醒一点点",
-            "direction": "压力替代、成瘾风险提示",
-            "status": "饮酒隐藏题触发、压力替代、逃避型应对风险。",
-            "sensitive": true,
-            "practices": [
-                {
-                    "priority": 1,
-                    "id": 24,
-                    "title": "面对成瘾",
-                    "reason": "直接承接成瘾相关主题。",
-                    "duration": "8:46",
-                    "seconds": 526,
-                    "tags": "健康,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=24"
-                },
-                {
-                    "priority": 2,
-                    "id": 191,
-                    "title": "摆脱烟瘾",
-                    "reason": "同属成瘾替代练习，可作参考。",
-                    "duration": "19:18",
-                    "seconds": 1158,
-                    "tags": "健康",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=191"
-                },
-                {
-                    "priority": 3,
-                    "id": 6,
-                    "title": "呼吸空间",
-                    "reason": "在冲动出现时先稳定。",
-                    "duration": "7:14",
-                    "seconds": 434,
-                    "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=6"
-                },
-                {
-                    "priority": 4,
-                    "id": 226,
-                    "title": "三步应对痛苦情绪",
-                    "reason": "处理饮酒背后的痛苦情绪。",
-                    "duration": "15:58",
-                    "seconds": 958,
-                    "tags": "疗愈,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=226"
-                },
-                {
-                    "priority": 5,
-                    "id": 212,
-                    "title": "三步呼吸空间",
-                    "reason": "快速应急稳定。",
-                    "duration": "6:25",
-                    "seconds": 385,
-                    "tags": "基础,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=212"
-                },
-                {
-                    "priority": 6,
-                    "id": 39,
-                    "title": "睡前放松（轻度）",
-                    "reason": "替代夜间饮酒入睡。",
-                    "duration": "10:58",
-                    "seconds": 658,
-                    "tags": "睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=39"
-                },
-                {
-                    "priority": 7,
-                    "id": 70,
-                    "title": "自然入眠",
-                    "reason": "建立更安全的睡眠入口。",
-                    "duration": "18:11",
-                    "seconds": 1091,
-                    "tags": "睡眠,放松",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=70"
-                },
-                {
-                    "priority": 8,
-                    "id": 67,
-                    "title": "应对艰难时刻",
-                    "reason": "承接压力时刻。",
-                    "duration": "11:39",
-                    "seconds": 699,
-                    "tags": "自我修行,正念冥想",
-                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=67"
+                    "url": "https://medi.xinli001.com/meditation/practiceDetail?channelId=2191&meditatingId=5",
+                    "sceneLabel": "??"
                 }
             ]
         }
     }
 };
-

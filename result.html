@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>冥想星球·SBTI</title>
+    <meta
+      name="description"
+      content="冥想星球·SBTI 测评结果。查看你的人格结果、十五维度和对应的人生解药。"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar" id="topbar">
+        <div>
+          <h1>冥想星球 · SBTI</h1>
+        </div>
+        <button class="button-ghost" id="resetTopBtn" type="button">重新测试</button>
+      </header>
+
+      <section class="result" id="resultScreen">
+        <div class="card result-card result-card--highlight">
+          <div class="result-hero">
+            <div class="result-figure" aria-hidden="true">
+              <div class="result-figure-placeholder" id="resultFigureLabel">人格图占位</div>
+            </div>
+            <div class="result-hero-copy">
+              <p class="section-kicker" id="resultKicker">你的类型</p>
+              <h2 class="result-highlight" id="resultName">CTRL（拿捏者）</h2>
+              <p class="result-match" id="matchBadge">匹配度 92%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card result-card result-card--detail">
+          <p class="section-kicker">开场白</p>
+          <blockquote class="result-quote" id="resultIntro">怎么样，被我拿捏了吧？</blockquote>
+          <p class="section-kicker">人格解读</p>
+          <p class="result-description" id="resultDesc"></p>
+          <p class="safety-note hidden" id="safetyNote"></p>
+        </div>
+
+        <div class="card result-card result-card--antidote" id="antidoteBlock">
+          <p class="section-kicker">人生解药</p>
+          <h3 id="antidoteTitle">松开方向盘</h3>
+          <p id="antidoteSubtitle">适合从控制感和责任压力里松一口气。</p>
+          <button class="button-primary" id="antidoteBtn" type="button">查看人生解药</button>
+        </div>
+
+        <!-- <div class="card result-card result-card--dimensions">
+          <p class="section-kicker">十五维度</p>
+          <div class="dimension-list" id="dimensionList"></div>
+        </div> -->
+
+        <div class="result-actions">
+          <button class="button-ghost" id="restartBtn" type="button">领取7天冥想星球VIP</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/data/sbti-questions.js"></script>
+    <script src="./assets/data/sbti-results.js"></script>
+    <script src="./assets/data/sbti-data.js"></script>
+    <script src="./assets/data/antidote-data.js"></script>
+    <script src="./assets/js/result.js"></script>
+  </body>
+</html>

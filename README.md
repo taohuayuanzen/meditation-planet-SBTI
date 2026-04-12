@@ -20,14 +20,6 @@
 
 正式项目结果页会展示 `SBTI.md` 中的完整人格长文案，不再使用原型里的摘要版结果说明。
 
-## 打开方式
-
-直接用浏览器打开：
-
-```text
-app/web_user/meditation-planet-SBTI/index.html
-```
-
 ## GitHub Pages 部署
 
 1. 将 `meditation-planet-SBTI` 整个文件夹上传到 GitHub 仓库。
@@ -37,7 +29,5 @@ app/web_user/meditation-planet-SBTI/index.html
 
 ## 说明
 
-- 自动切题延迟为 `500ms`
 - 所有计分都在前端本地完成
-- 人生解药页通过 `personality-antidote.html?type=人格code` 渲染对应内容
 - 本项目当前没有 npm、Node、后端服务等运行依赖

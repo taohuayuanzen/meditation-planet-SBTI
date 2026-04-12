@@ -59,10 +59,10 @@ function getTypeName(typeItem, prescriptionItem) {
 }
 
 function updatePageHead(prescriptionItem, prescriptionDate) {
-  document.title = `人生解药·处方单｜${prescriptionItem.code}`;
-  document.getElementById('pageTitle').textContent = '你的处方单';
+  document.title = `人生解药｜${prescriptionItem.code}`;
+  document.getElementById('pageTitle').textContent = '处方单';
   document.getElementById('clinicSubtitle').textContent =
-    `这是为 ${prescriptionItem.displayName || prescriptionItem.code} 准备的练习处方。`;
+    `这是为你准备的练习处方。`;
   document.getElementById('prescriptionDate').textContent = `开方日期：${prescriptionDate}`;
 }
 

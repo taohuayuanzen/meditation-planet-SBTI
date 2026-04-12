@@ -115,7 +115,7 @@ function renderQuestion() {
  * @param {number} total 题目总数
  */
 function updateQuestionHead(question, answeredCount, total) {
-  const questionMeta = `${dimensionMeta[question.dim].model} · ${dimensionMeta[question.dim].name}`;
+  const questionMeta = `${dimensionMeta[question.dim].model}`;
   document.getElementById('questionMeta').textContent = questionMeta;
   document.getElementById('questionTitle').textContent = question.text;
   document.getElementById('progressText').textContent = `${answeredCount} / ${total}`;
@@ -283,7 +283,7 @@ function computeResult() {
 
   return {
     finalType: bestType,
-    mode: '你的主类型',
+    mode: '你的当前人格',
     badge: `匹配度 ${bestType.similarity}%`,
     levels
   };

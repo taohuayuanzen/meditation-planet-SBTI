@@ -229,6 +229,10 @@ button:disabled {
   padding-top: var(--space-12);
 }
 
+.intro-actions .button-primary {
+  width: 100%;
+}
+
 .test-head {
   margin-bottom: var(--space-24);
 }
@@ -332,7 +336,12 @@ button:disabled {
 }
 
 .test-actions {
-  justify-content: flex-end;
+  justify-content: flex-start;
+}
+
+.test-actions > button {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .result-actions,
@@ -370,16 +379,28 @@ button:disabled {
 }
 
 .result-figure {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
   min-height: 136px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background: var(--color-fill-light);
 }
 
+.result-figure-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 136px;
+  object-fit: cover;
+}
+
 .result-figure-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   min-height: 136px;
   padding: var(--space-16);
   color: var(--color-text-secondary);
@@ -387,6 +408,14 @@ button:disabled {
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
+}
+
+.result-figure--empty .result-figure-image {
+  display: none;
+}
+
+.result-figure--ready .result-figure-placeholder {
+  display: none;
 }
 
 .result-hero-copy {

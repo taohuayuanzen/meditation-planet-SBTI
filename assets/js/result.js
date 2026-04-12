@@ -16,6 +16,9 @@ const dimensionOrder = sbtiData.dimensionOrder;
 const resetTopBtn = document.getElementById('resetTopBtn');
 const restartBtn = document.getElementById('restartBtn');
 const antidoteBtn = document.getElementById('antidoteBtn');
+const resultFigure = document.getElementById('resultFigure');
+const resultFigureImage = document.getElementById('resultFigureImage');
+const resultFigureLabel = document.getElementById('resultFigureLabel');
 const resultSnapshot = readResultSnapshot();
 
 document.title = sbtiData.siteTitle;
@@ -106,7 +109,53 @@ function renderResultSummary(snapshot) {
   document.getElementById('resultKicker').textContent = snapshot.mode;
   document.getElementById('resultName').textContent = `${type.code}（${type.displayName}）`;
   document.getElementById('matchBadge').textContent = snapshot.badge;
-  document.getElementById('resultFigureLabel').textContent = `${type.code} 人格图占位`;
+  renderResultFigure(type);
+}
+
+/**
+ * 渲染人格图；缺图时保留占位文案。
+ * @param {{ code: string, displayName: string }} type 人格信息
+ */
+function renderResultFigure(type) {
+  const imagePath = getResultFigurePath(type.code);
+
+  resultFigureLabel.textContent = `${type.code}（${type.displayName}）人格图`;
+  setResultFigureState(false);
+  resultFigureImage.removeAttribute('src');
+  resultFigureImage.alt = `${type.code} ${type.displayName}人格图`;
+
+  resultFigureImage.onload = () => {
+    setResultFigureState(true);
+  };
+  resultFigureImage.onerror = () => {
+    setResultFigureState(false);
+  };
+  resultFigureImage.src = imagePath;
+}
+
+/**
+ * 切换人格图显隐状态。
+ * @param {boolean} hasImage 是否已有可展示图片
+ */
+function setResultFigureState(hasImage) {
+  resultFigure.classList.toggle('result-figure--ready', hasImage);
+  resultFigure.classList.toggle('result-figure--empty', !hasImage);
+}
+
+/**
+ * 根据人格编码生成结果图路径。
+ * 统一规则：小写、保留连字符、移除特殊字符。
+ * @param {string} typeCode 人格编码
+ * @returns {string} 图片路径
+ */
+function getResultFigurePath(typeCode) {
+  const normalizedCode = String(typeCode || '')
+    .trim()
+    .toLowerCase()
+    .replaceAll('!', '')
+    .replace(/[^a-z0-9-]/g, '');
+
+  return `./assets/images/personality/${normalizedCode}.png`;
 }
 
 /**

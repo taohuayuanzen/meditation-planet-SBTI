@@ -6,23 +6,24 @@
     <title>人生解药</title>
     <meta
       name="description"
-      content="根据冥想星球·MBTI 人格结果展示对应的人生解药，提供 10 条左右冥想练习与跳转链接。"
+      content="根据冥想星球·SBTI 人格结果展示对应的人生解药，提供 8 条左右冥想练习。"
     />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
     <main class="app-shell">
       <div class="sheet-nav">
-        <a class="button-ghost" href="./index.html">返回测评</a>
+        <h1 class="sheet-nav-title">人生解药</h1>
+        <a class="button-ghost" href="./result.html">测试结果</a>
       </div>
 
       <section class="surface prescription-sheet">
         <header class="sheet-head">
           <div class="clinic-copy">
-            <h1 id="pageTitle">人生解药处方单</h1>
+            <h1 id="pageTitle">人生解药</h1>
             <p class="clinic-note" id="clinicSubtitle">根据你当前的人格状态生成的练习处方。</p>
           </div>
-          <div class="diagnosis-stamp" aria-hidden="true">SBTI处方</div>
+          <div class="diagnosis-stamp" aria-hidden="true">已诊断</div>
         </header>
 
         <section class="patient-grid" aria-label="人格档案">
@@ -39,15 +40,9 @@
             <strong class="info-value" id="prescriptionName">正在配药方</strong>
           </div>
           <div class="info-row">
-            <span class="info-label">推荐方向</span>
+            <span class="info-label">调理方向</span>
             <strong class="info-value" id="prescriptionDirection">调理方向读取中</strong>
           </div>
-        </section>
-
-        <section class="sheet-section">
-          <p class="section-kicker">处方标题</p>
-          <h2 class="prescription-name">本次人格处方</h2>
-          <p class="prescription-summary" id="prescriptionSummary">请稍等，正在读取你的测评结果。</p>
         </section>
 
         <section class="sheet-section">
@@ -59,7 +54,7 @@
         </section>
 
         <section class="sheet-section">
-          <h3 class="sheet-title">解药说明</h3>
+          <h3 class="sheet-title">处方说明</h3>
           <p class="sheet-paragraph" id="instructionLead">正在生成处方说明</p>
           <ul class="instruction-list" id="instructionList"></ul>
         </section>
@@ -67,8 +62,8 @@
         <section class="sheet-section">
           <div class="section-head">
             <div>
-              <p class="section-kicker">练习处方</p>
-              <h3 class="sheet-title">本次建议练习</h3>
+              <!-- <p class="section-kicker">练习处方</p> -->
+              <h3 class="sheet-title">练习处方</h3>
             </div>
             <span class="prescription-count" id="practiceCount">0 味</span>
           </div>
@@ -77,11 +72,18 @@
         </section>
 
         <footer class="sheet-footer">
-          <p class="sheet-paragraph" id="signatureText">先从第一味开始，今天完成一味就够。</p>
+          <p class="sheet-paragraph" id="signatureText">先从第一味开始，今天服用一味就够。</p>
           <p class="prescription-date" id="prescriptionDate">开方日期：读取中</p>
           <div class="footer-actions">
-            <a class="button-ghost" href="./index.html">返回测评</a>
-            <a class="button-primary" id="firstPracticeLink" href="./index.html">从第一条开始</a>
+            <a class="button-primary" id="firstPracticeLink" href="./index.html">开始第1个练习</a>
+            <a
+              class="button-ghost"
+              href="http://mk.xinlifm.site/mpus/dptg95e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              领取7天VIP，解锁全部练习
+            </a>
           </div>
         </footer>
       </section>

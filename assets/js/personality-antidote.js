@@ -59,10 +59,10 @@ function getTypeName(typeItem, prescriptionItem) {
 }
 
 function updatePageHead(prescriptionItem, prescriptionDate) {
-  document.title = `人生解药处方单｜${prescriptionItem.code}`;
-  document.getElementById('pageTitle').textContent = '人生解药处方单';
+  document.title = `人生解药·处方单｜${prescriptionItem.code}`;
+  document.getElementById('pageTitle').textContent = '你的处方单';
   document.getElementById('clinicSubtitle').textContent =
-    `这是为 ${prescriptionItem.displayName || prescriptionItem.code} 准备的当下练习处方。`;
+    `这是为 ${prescriptionItem.displayName || prescriptionItem.code} 准备的练习处方。`;
   document.getElementById('prescriptionDate').textContent = `开方日期：${prescriptionDate}`;
 }
 
@@ -73,8 +73,6 @@ function updateIdentitySection(prescriptionItem, typeName) {
     prescriptionItem.prescriptionName || '临时药方';
   document.getElementById('prescriptionDirection').textContent =
     prescriptionItem.direction || '从一条可完成的基础练习开始。';
-  document.getElementById('prescriptionSummary').textContent =
-    buildPrescriptionSummary(prescriptionItem);
 }
 
 function updateSymptomSection(typeItem, prescriptionItem) {
@@ -97,7 +95,7 @@ function updateInstructionSection(prescriptionItem) {
 function updatePracticeSection(practices) {
   const practiceCountText = `共 ${practices.length} 味`;
   const practiceLeadText = practices.length
-    ? `按顺序执行前 ${practices.length} 条练习，先完成一味即可。`
+    ? `药不能停，先服用一味即可。`
     : '当前暂无可展示练习，请先返回测评。';
   const practiceMarkup = practices.length
     ? practices.map((practice, index) => renderPractice(practice, index)).join('')
@@ -111,14 +109,10 @@ function updatePracticeSection(practices) {
 function updateSignatureSection(practices, prescriptionDate) {
   const firstPractice = practices[0];
   const signatureText = firstPractice?.title
-    ? `建议先从《${firstPractice.title}》开始，完成一味即可，不必一次做完整张处方。`
+    ? `建议先从《${firstPractice.title}》开始，每天服用一味即可，不必一次服用所有练习处方。`
     : '今天先从一条基础练习开始，保持连续比一次做完更重要。';
 
   document.getElementById('signatureText').textContent = signatureText;
-}
-
-function buildPrescriptionSummary(prescriptionItem) {
-  return `这是为 ${prescriptionItem.displayName || prescriptionItem.code} 准备的一张练习处方单。先按能完成的节奏开始，不需要一次做完整张处方。`;
 }
 
 function updateFirstPracticeLink(firstPractice) {
@@ -157,7 +151,7 @@ function buildInstructionLead(prescriptionItem) {
   }
 
   const mainDirection = getPrimaryDirection(prescriptionItem.direction);
-  return `这张处方单会先帮你把注意力带回${mainDirection}，再逐步稳定当前节奏。`;
+  return `这张处方会帮助你调理${mainDirection}方面的状态，正念回应${mainDirection}相关的症状和挑战。`;
 }
 
 function buildInstructionItems(prescriptionItem) {
@@ -171,9 +165,9 @@ function buildInstructionItems(prescriptionItem) {
   return [
     `优先处理：${statusText}。`,
     directions[0]
-      ? `本次调理重点：${directions[0]}。`
+      ? `调理重点：${directions[0]}。`
       : '本次调理重点：先从一条能完成的基础练习开始。',
-    '执行方式：按顺序练习，先完成一味即可，不需要一次做完整张处方。'
+    '执行方式：每天服用一味。每天保持练习效果更佳。'
   ];
 }
 

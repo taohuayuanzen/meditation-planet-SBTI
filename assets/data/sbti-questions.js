@@ -39,15 +39,15 @@ window.MEDITATION_PLANET_SBTI_QUESTIONS = {
             "name": "人生意义感"
         },
         "Ac1": {
-            "model": "行动驱力模型",
+            "model": "行动模型",
             "name": "动机导向"
         },
         "Ac2": {
-            "model": "行动驱力模型",
+            "model": "行动模型",
             "name": "决策风格"
         },
         "Ac3": {
-            "model": "行动驱力模型",
+            "model": "行动模型",
             "name": "执行模式"
         },
         "So1": {

@@ -6,7 +6,7 @@
     <title>冥想星球·SBTI</title>
     <meta
       name="description"
-      content="冥想星球·SBTI 测评结果。查看你的人格结果、十五维度和对应的人生解药。"
+      content="冥想星球·SBTI 测评结果。查看你的人格结果和对应的人生解药。"
     />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
@@ -22,11 +22,12 @@
       <section class="result" id="resultScreen">
         <div class="card result-card result-card--highlight">
           <div class="result-hero">
-            <div class="result-figure" aria-hidden="true">
+            <div class="result-figure result-figure--empty" id="resultFigure">
+              <img class="result-figure-image" id="resultFigureImage" alt="" />
               <div class="result-figure-placeholder" id="resultFigureLabel">人格图占位</div>
             </div>
             <div class="result-hero-copy">
-              <p class="section-kicker" id="resultKicker">你的类型</p>
+              <p class="section-kicker" id="resultKicker">你当前是</p>
               <h2 class="result-highlight" id="resultName">CTRL（拿捏者）</h2>
               <p class="result-match" id="matchBadge">匹配度 92%</p>
             </div>
